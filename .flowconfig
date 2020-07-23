@@ -1,0 +1,9 @@
+[ignore]
+.*/node_modules/flow-coverage-report/.*
+.*/node_modules/documentation/.*
+
+[libs]
+flow-typed
+
+[version]
+0.107.0
