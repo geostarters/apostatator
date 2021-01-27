@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ESRI_ItemInformation Culture='ca-ES'>
+<name>MG50mv20_flat_amb_dades</name>
+<guid>2DD93E7D-A88D-4EC9-991C-0B243C232BB1</guid>
+<version>1.0</version>
+<created></created>
+<modified></modified>
+<catalogpath></catalogpath>
+<snippet>Map</snippet>
+<description>&lt;DIV STYLE=&quot;text-align:Left;font-size:12pt&quot;&gt;&lt;P&gt;&lt;SPAN&gt;Test&lt;/SPAN&gt;&lt;/P&gt;&lt;/DIV&gt;</description>
+<summary>Map</summary>
+<title>Map</title>
+<tags></tags>
+<type>Vector Tile Package</type>
+<typekeywords>
+<typekeyword>Data</typekeyword>
+<typekeyword>Vector Tile Package</typekeyword>
+<typekeyword>vtpk</typekeyword>
+</typekeywords>
+<thumbnail>thumbnail/thumbnail.png</thumbnail>
+<documentation></documentation>
+<url></url>
+<extent>
+<xmin>6.39920772501053E-02</xmin>
+<ymin>40.5141977289967</ymin>
+<xmax>3.33555501784877</xmax>
+<ymax>42.8844287226535</ymax>
+</extent>
+<spatialreference>WGS_1984_Web_Mercator_Auxiliary_Sphere</spatialreference>
+<minScale>4622324</minScale>
+<maxScale>9027</maxScale>
+<datalastModifiedTime></datalastModifiedTime>
+<accessinformation></accessinformation>
+<licenseinfo></licenseinfo>
+</ESRI_ItemInformation>

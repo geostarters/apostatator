@@ -23,7 +23,7 @@ class DemoService {
 
 	static deleteSomething(param: String) {
 
-		return {"text": "DELETE: it works!", "param": param};
+		return {"text": "DELETE: it works!", param};
 
 	}
 

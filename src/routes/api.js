@@ -3,6 +3,7 @@
 
 const Router = require("express").Router;
 const DemoService = require("../services/demo.js");
+const VtpkService = require("../services/vtpk.js");
 
 module.exports = () => {
 
@@ -18,7 +19,7 @@ module.exports = () => {
 	api.post("/", async (req, res) => {
 
 		console.log("Post");
-		res.json(await DemoService.postSomething());
+		res.json(await VtpkService.postSomething(req.files));
 
 	});
 

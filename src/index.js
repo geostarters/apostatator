@@ -4,6 +4,7 @@
 const express = require("express");
 const cluster = require("cluster");
 const bodyParser = require("body-parser");
+const fileUpload = require("express-fileupload");
 const logger = require("morgan");
 const cors = require("cors");
 const helmet = require("helmet");
@@ -14,7 +15,6 @@ require("dotenv").config();
 
 require("core-js/stable");
 require("regenerator-runtime/runtime");
-
 
 const numCPUs = os.cpus().length;
 
@@ -48,6 +48,13 @@ if (cluster.isMaster) {
 	app.use(bodyParser.raw());
 	app.use(cors());
 	app.use(helmet());
+	// enable files upload
+	app.use(fileUpload({
+		createParentPath: true,
+		safeFileNames: true,
+		preserveExtension: 4,
+		useTempFiles: true
+	}));
 
 	process.on("unhandledRejection", (reason, p) => {
 

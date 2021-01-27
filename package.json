@@ -1,10 +1,10 @@
 {
-  "name": "express-project-template",
+  "name": "apostatador",
   "version": "0.0.1",
-  "description": "A Node.js template app using Express 4",
+  "description": "Transform VectorTiles .vtpk files generated from ArcGIS to .mbitles ",
   "author": "@geostarters",
   "engines": {
-    "node": ">=6.4.0"
+    "node": ">=8.17.0"
   },
   "license": "MIT",
   "scripts": {
@@ -22,33 +22,36 @@
     "test-coverage": "jest --coverage"
   },
   "dependencies": {
-    "@geostarters/eslint-config": "^0.0.1",
-    "body-parser": "^1.15.2",
+    "@geostarters/eslint-config": "^0.0.6",
+    "@geostarters/openvtpk": "^0.4.1",
+    "adm-zip": "^0.4.16",
+    "body-parser": "^1.19.0",
     "cors": "^2.8.0",
-    "dotenv": "^7.0.0",
-    "express": "^4.14.0",
-    "helmet": "^3.16.0",
-    "morgan": "^1.9.1"
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0",
+    "helmet": "^3.23.3",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.5",
-    "@babel/preset-env": "^7.4.5",
-    "babel-jest": "^24.8.0",
-    "babel-loader": "^8.0.6",
-    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "@babel/core": "^7.10.5",
+    "@babel/plugin-transform-flow-strip-types": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^8.1.0",
     "cluster": "^0.7.7",
-    "core-js": "^3.1.4",
-    "documentation": "^9.1.0",
-    "eslint-plugin-jest": "^22.6.4",
-    "flow-coverage-report": "^0.4.1",
-    "flow-remove-types": "^2.101.0",
-    "jest": "^24.8.0",
-    "nodemon": "^1.18.9",
-    "npm-run-all": "^4.1.2",
-    "regenerator-runtime": "^0.13.2",
+    "core-js": "^3.6.5",
+    "documentation": "^13.0.2",
+    "eslint-plugin-jest": "^23.18.0",
+    "flow-coverage-report": "^0.7.0",
+    "flow-remove-types": "^2.129.0",
+    "jest": "^26.1.0",
+    "nodemon": "^2.0.4",
+    "npm-run-all": "^4.1.5",
+    "regenerator-runtime": "^0.13.7",
     "remove-flow-types-loader": "^1.1.0",
-    "webpack": "^4.34.0",
-    "webpack-cli": "^3.3.5",
-    "webpack-node-externals": "^1.7.2"
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-node-externals": "^2.5.0"
   }
 }

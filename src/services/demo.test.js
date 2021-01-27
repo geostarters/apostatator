@@ -1,10 +1,9 @@
 // @flow
 "use strict";
 
-
 const demo = require("./demo");
 
-describe("Test the demo Service", ()=>{
+describe("Test the demo Service", () => {
 
 	test("getSomething should return the object {\"text\": \"GET: it works!\"}", () => {
 
